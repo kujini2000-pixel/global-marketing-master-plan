@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="2026–2027 Global Marketing Master Plan" />
+  <title>2026–2027 Global Marketing Master Plan</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+
+    :root { --ink:#102b2d; --muted:#607174; --line:#d9e2e0; --paper:#f7f9f7; --mint:#dff5eb; --green:#007c62; --lime:#b9e847; --orange:#ff8d50; --navy:#123e42; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#e9efed; color:var(--ink); font-family:"Noto Sans KR", sans-serif; }
+    .sheet { width:min(1440px, calc(100vw - 48px)); margin:24px auto; padding:42px 48px 36px; background:var(--paper); box-shadow:0 18px 60px rgba(16,43,45,.13); overflow:hidden; }
+    .eyebrow, .meta, .month { font-family:"DM Mono", monospace; letter-spacing:.05em; }
+    header { display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:25px; border-bottom:2px solid var(--ink); }
+    .eyebrow { color:var(--green); font-size:12px; font-weight:500; text-transform:uppercase; }
+    h1 { margin:7px 0 5px; font-size:38px; line-height:1.16; letter-spacing:-.05em; }
+    .subtitle { margin:0; font-size:15px; color:var(--muted); }
+    .meta { margin-top:5px; text-align:right; color:var(--muted); font-size:11px; line-height:1.7; }
+    .flow { display:flex; align-items:center; gap:9px; margin:22px 0; color:var(--green); font-family:"DM Mono", monospace; font-size:12px; font-weight:500; }
+    .arrow { color:#8ca09a; }
+    .goal { display:grid; grid-template-columns:106px 1fr; gap:18px; padding:18px 20px; background:var(--navy); color:white; }
+    .goal b { color:var(--lime); font-size:12px; font-family:"DM Mono", monospace; }
+    .goal p { margin:0; font-size:16px; font-weight:500; line-height:1.55; }
+    .section-title { display:flex; justify-content:space-between; align-items:baseline; margin:26px 0 12px; }
+    h2 { margin:0; font-size:15px; letter-spacing:-.02em; }
+    .section-title span { color:var(--muted); font-size:11px; }
+    .pillars { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .pillar { min-height:198px; padding:18px; border:1px solid var(--line); background:#fff; position:relative; }
+    .pillar::before { content:""; position:absolute; top:0; left:0; width:100%; height:5px; background:var(--mint); }
+    .pillar:nth-child(2)::before { background:var(--lime); }
+    .pillar:nth-child(3)::before { background:#96d9dc; }
+    .pillar:nth-child(4)::before { background:var(--orange); }
+    .number { font-family:"DM Mono", monospace; color:var(--green); font-size:11px; }
+    h3 { margin:8px 0 11px; font-size:17px; letter-spacing:-.04em; }
+    .pillar p { min-height:75px; margin:0; color:#445658; font-size:12px; line-height:1.65; word-break:keep-all; }
+    .metric { display:inline-block; margin-top:14px; padding:5px 7px; background:#edf4f0; color:var(--green); font-size:10px; line-height:1.45; font-weight:700; }
+    .timeline { display:grid; grid-template-columns:1.12fr 1fr 1fr 1fr 1fr 1fr 1.12fr; border-top:1px solid var(--line); border-left:1px solid var(--line); }
+    .time { min-height:142px; padding:13px 13px 10px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); background:#fff; }
+    .month { font-size:11px; color:var(--green); font-weight:500; }
+    .time ul { margin:9px 0 0; padding:0; list-style:none; color:#45585a; font-size:11px; line-height:1.6; }
+    .time li { margin-bottom:4px; }
+    .event { color:var(--ink); font-weight:800; }
+    .focus { background:var(--mint); }
+    .future { background:#eff3f1; }
+    .bottom { margin-top:20px; }
+    .panel { padding:16px 18px; border:1px solid var(--line); background:#fff; }
+    .panel h2 { margin-bottom:11px; }
+    .accounts { display:grid; grid-template-columns:80px 1fr; gap:8px 12px; font-size:12px; line-height:1.55; }
+    .accounts b { color:var(--green); }
+    footer { display:flex; justify-content:space-between; margin-top:15px; color:#7a898a; font-size:9px; }
+    @media (max-width:900px) { .sheet { width:100%; margin:0; padding:28px 22px; } header { display:block; } .meta { text-align:left; margin-top:14px; } .pillars { grid-template-columns:repeat(2,1fr); } .timeline { grid-template-columns:1fr; } }
+    @media (max-width:520px) { h1 { font-size:29px; } .goal { grid-template-columns:1fr; gap:7px; } .pillars { grid-template-columns:1fr; } .flow { flex-wrap:wrap; } }
+    @page { size:A4 landscape; margin:9mm; }
+    @media print { body { background:#fff; } .sheet { width:100%; margin:0; padding:0; box-shadow:none; } }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header>
+      <div>
+        <div class="eyebrow">2026 · Global Marketing</div>
+        <h1>2026–2027 Global Marketing Master Plan</h1>
+        <p class="subtitle">자금 기반을 확보하고, 글로벌 시장에서 신뢰를 만들며, 고객 전환으로 연결한다.</p>
+      </div>
+      <div class="meta">PLAN PERIOD · AUG 2026 — JAN 2027<br>UPDATED · 06 AUG 2026</div>
+    </header>
+
+    <div class="flow"><span>FUNDED</span><span class="arrow">→</span><span>BUILD PRESENCE</span><span class="arrow">→</span><span>PROVE</span><span class="arrow">→</span><span>CONVERT</span><span class="arrow">→</span><span>SCALE</span></div>
+
+    <section class="goal"><b>2026 MISSION</b><p>투자·정책자금 기반과 글로벌 디지털 채널을 정비하고, 핵심 전시·해외 PoC를 통해 고객·파트너 파이프라인을 실질적인 사업 기회로 전환한다.</p></section>
+
+    <div class="section-title"><h2>4 STRATEGIC PILLARS</h2><span>실행 항목과 성과 기준을 동시에 관리</span></div>
+    <section class="pillars">
+      <article class="pillar"><div class="number">01 / CAPITAL</div><h3>자금 기반 실행</h3><p>6월 말까지 확보한 투자·보증·대출 재원을 바탕으로 사업을 실행하고, 자금 집행과 잔여 재원을 체계적으로 관리한다.</p><div class="metric">자금별 집행 현황 · 잔여 재원</div></article>
+      <article class="pillar"><div class="number">02 / PRESENCE</div><h3>글로벌 신뢰도 구축</h3><p>LinkedIn 공식 채널을 개설하고 주 2~3회 콘텐츠를 발행한다. Wix 기반 홈페이지의 영문 콘텐츠와 문의 전환 체계를 완성한다.</p><div class="metric">LinkedIn 월 8~12건 · 8월 웹사이트 오픈</div></article>
+      <article class="pillar"><div class="number">03 / PROOF</div><h3>현지 실증 확보</h3><p>미국 글로벌 PoC와 유럽 SVC(네덜란드 → 스페인 → 영국)를 추진하고, 10월 독일 법인 설립 및 프랑크푸르트 GBC 거점 활용을 검토한다.</p><div class="metric">PoC · 현지 파트너 · 독일 운영 거점</div></article>
+      <article class="pillar"><div class="number">04 / CONVERSION</div><h3>시장 전환과 확장</h3><p>IAA, K-DEX, CES를 고객·파트너 접점으로 운영하고, 매출 발생 이후 Series B 또는 Bridge 투자 준비를 시작한다.</p><div class="metric">미팅 → PoC/제안 → 매출 → 후속 투자</div></article>
+    </section>
+
+    <div class="section-title"><h2>MILESTONE TIMELINE</h2><span>전시 참가 자체가 아닌 리드 전환 중심</span></div>
+    <section class="timeline">
+      <article class="time focus"><div class="month">JUN 2026</div><ul><li><span class="event">자금 확보 완료</span></li><li>스타트업리서치 13억 투자유치</li><li>신보 15억 및 30억 100% 보증대출 승인</li><li>IBK기업은행 10억 확보</li></ul></article>
+      <article class="time focus"><div class="month">AUG 2026</div><ul><li><span class="event">LinkedIn 공식 채널 개설</span></li><li>주 2~3회 콘텐츠 발행 시작</li><li><span class="event">Wix 홈페이지 오픈·고도화</span></li><li>SVC 국내·온라인 프로그램 (6주)</li></ul></article>
+      <article class="time"><div class="month">SEP 2026</div><ul><li><span class="event">IAA TRANSPORTATION</span></li><li>09.14 Press Day</li><li>09.15–20 · Hannover</li><li>SVC 현지 프로그램 사전 준비</li></ul></article>
+      <article class="time"><div class="month">OCT 2026</div><ul><li><span class="event">독일 법인 설립</span></li><li><span class="event">SVC 현지 프로그램 시작</span></li><li>네덜란드 → 스페인 → 영국 순</li><li>독일 GBC 연계 검토</li></ul></article>
+      <article class="time"><div class="month">NOV — DEC</div><ul><li>SVC 현지 프로그램 (총 8주) 후속</li><li>현지 파트너·투자자 미팅</li><li><span class="event">K-DEX 2026 · 12.08–11</span></li><li>CES 최종 준비</li></ul></article>
+      <article class="time future"><div class="month">JAN — FEB 2027</div><ul><li><span class="event">CES 2027</span></li><li>01.06–09 · Las Vegas</li><li>전시 리드 후속·매출 전환</li><li>매출 성과 검증</li></ul></article>
+      <article class="time future"><div class="month">MAR 2027 —</div><ul><li><span class="event">매출 발생 기반</span></li><li>Series B 또는 Bridge 투자 준비 착수</li><li>IR 자료·투자자 파이프라인 정비</li></ul></article>
+    </section>
+
+    <section class="bottom">
+      <article class="panel"><h2>PRIORITY ACCOUNTS &amp; MARKETS</h2><div class="accounts"><b>국내 고객</b><span>비트센싱 · HDX · LG CNS · 현대 WIA</span><b>해외 타깃</b><span>Bosch · Luceque</span><b>우선 시장</b><span>미국 PoC · 유럽(네덜란드·스페인·영국) · 독일 법인·GBC 거점 · 글로벌 전시</span></div></article>
+    </section>
+    <footer><span>INTERNAL WORKING PLAN · GLOBAL MARKETING</span><span>SVC: NETHERLANDS → SPAIN → UK · DETAILED DATES TBC</span></footer>
+  </main>
+</body>
+</html>
